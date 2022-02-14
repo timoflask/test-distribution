@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Minter {
+  max-width: 80vh;
+  max-height: 80vh;
+  padding: 60px 100px;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.listPanel {
+  margin-left: 30px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 16px;
+  width: 100%;
+  border-color: rgba(4, 4, 5, 0.1);
+  line-height: 32px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(4, 4, 5, 0.4);
+}
+
+button {
+  padding: 9px 16px;
+  border-color: #0a2c4d;
+  color: #0a2c4d;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+#title {
+  padding-top: 32px;
+}
+
+#statusLabel {
+  margin-top: 50px;
+  font-size: large;
+}
+
+#status {
+  font-size: 20px;
+  color:rgb(255, 0, 0);
+}
+
+.uploadFile {
+  border: 4px dashed rgba(4, 4, 5, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  padding: 32px 60px;
+}
+
+#walletButton {
+  text-align: right;
+  float:right;
+  margin-bottom: 50px;
+  line-height: 16px;
+}
+
+#listwalletButton {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 16px;
+}
+
+#mintButton {
+  margin-top: 40px;
+  width: 200px;
+  border: none;
+  background-color: #0a2c4d;
+  color:white;
+}
+
+#listButton {
+  margin-left: 20px;
+  width: 100px;
+  border: none;
+  background-color: #0a2c4d;
+  color:white;
+}
+
+.nftstack {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.check {
+  width: 50px;
+  height: 50px;
+}
+
+.nftstack:hover {
+  opacity: 90%;
+}
+
+.nftpanel {
+  display: flex;
+}
+
+
+.tokenId {
+  color:brown;
+}
+
+/* Main Page */
+.mainPage {
+  width: 670px;
+}
+
+
+div.customFee {
+  display: flex;
+}
+
+div.mintFee {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div.totalFee {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+#networkTitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.networkNotice {
+  display: flex;
+  align-items: center;
+}
+
+#networkId {
+  font-weight: bold;
+  margin: 4px;
+}
+
+#platformfee {
+  margin-left: 5px;
+}
+
+#descriptionTitle {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+#proceed {
+  width: 171px;
+  height: 52px;
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 0px;
+  border-width: 0px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.totalAction {
+  left: 20px;
+  display: flex;
+}
+
+.Mint {
+  /* padding: 49px; */
+  border: 1px solid #EAE3E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 226px;
+  height: 195px;
+  cursor: pointer;
+}
+
+.Tokens {
+  border: 1px solid #EAE3E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+  height: 195px;
+  cursor: pointer;
+}
+
+.solanaStack {
+  border: 1px solid #EAE3E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+  height: 195px;
+  cursor: pointer;
+}
+
+.Mint.active, .Tokens.active, .solanaStack.active {
+  border-color: rgb(240, 217, 10);
+}
+
+#totalFeeTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.btn {
+  padding: 0px;
+  border-width: 0px;
+  align-items: center;
+}
+
+.proceed {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#description {
+  padding: 5px;
+  /* border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove; */
+  font-size: 16px;
+  width: 100%;
+  height: 80px;
+  border-color: rgba(4, 4, 5, 0.1);
+  /* line-height: 32px; */
+}
